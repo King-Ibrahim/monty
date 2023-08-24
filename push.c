@@ -1,13 +1,13 @@
 #include "monty.h"
 /**
- * ppush - This function adds a node to the stack
+ * push - This function adds a node to the stack
  * @head: The head
  * @counter: The line_number
  * Return: Does not return
  *
 */
 
-void ppush(stack_t **head, unsigned int counter)
+void push(stack_t **head, unsigned int counter)
 {
 	int i, j = 0;
 	int flag;
